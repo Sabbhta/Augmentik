@@ -1,0 +1,110 @@
+*
+{
+    padding:0;
+    margin:0;  
+    box-sizing:border-box;
+}
+body
+{background-image:url('https://images.wallpapersden.com/image/download/human-in-space-digital-art_a2dlaGaUmZqaraWkpJRnamtlrWZpaWU.jpg');
+    background-size:cover;
+    background-position:center;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    background-repeat:no repeat;
+    background-attachment: fixed;
+ 
+}
+  .menu-bar
+{
+    background:rgb(0,0,0);
+    text-align:left;
+}
+
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style:none;
+    color:#fff;
+  margin: 35px;
+ }
+ .menu-bar ul li
+{
+    width:60px;
+    margin: 35px;
+   
+}
+ .menu-bar ul li a
+{
+    text-decoration:none;
+    color:#fff;  
+
+}
+ .active, .menu-bar ul li:hover
+{
+    background:#000000;
+    border-radius:2px;
+    }
+ menu-bar.fa
+ {
+     margin-right:2px;
+
+}
+.sub-menu-1
+{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background: rgb(0,0,0);
+    margin-top:15px;
+    margin-left:-15px;
+    }
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:10px;
+   
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width:150px;
+    padding:20px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius: 0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+.h1
+  { 
+    font-family:Times New Roman;
+    font-size:50px 0px 0px 0px;
+    color:white;
+   }
+   .button {
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 0px 20px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px 0px 45px;
+  cursor: pointer;
+
+}
+.button4 {border-radius:50px;}
+</style>
+</head>
+</body>
